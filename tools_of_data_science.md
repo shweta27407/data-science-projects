@@ -12,6 +12,7 @@ Code asset management tools are Git, GitHub, GitLab, and Bitbucket.
 And finally, data asset management tools are Apache Atlas, ODPi Egeria, and Kylo.
 
 **Data Management Tools**
+
 MySQL -> popular open-source RDBMS that uses SQL to manage and store data. Common use is Web Applications, Data Warehouse, and e-commerce.
 PostgreSQL -> powerful RDBMS that emphasizes extensibility and SQL compliances. Advanced features such as JSON-support, full-text search and spatial data.
 Apache Cassandra -> highly scalable, distributed NoSQL database that can handle large amounts of structured, unstructured data across many commodity servers.
@@ -27,6 +28,7 @@ Hadoop HDFS -> (hadoop distributed file system provides high through-put acccess
     making it suitable for storing and processing large datasets in distributed computed environment.
 
 **Data Integration and Transformation Tools**
+
 Apache Spark SQL -> module in Spark ecosystem, that provides programming interface for working with structured data using SQL, data frames and datasets.
 Kubeflow -> open source machine learning toolkit built on top of Kubernetes. Provides a platform for building, deploying and managing end-to-end machine learning worklflows
     at scale, with support for distributed training, model serving and hyperparameter tuning.
@@ -36,12 +38,14 @@ Apache nifi -> opensource data integration platform that allows users to automat
 Apache Kafka -> distributed streaming platform that allows applications to publish, process and subscribe to streams of records in real time
 
 **Data Visualization Tools**
+
 Pixiedust -> provides range of built in visualizations, data connectors, with support for customization and extensibility through third party libraries.
 Kibana -> commonly used with elasticSearch to analyze and visualize large datasets.
 Hue -> offers user friendly experience for exploring data and creating visualization without programmming. (Apache Hadoop)
 Superset -> modern enterprise ready business intelligence web application that makes it easy to visualize and explore large datasets. 
 
 **Data Deployment Tools**
+
 PredictionIO -> open source machine learning server built on scalable and distributed infrastructure
 Kubernetes -> open source platform for container orchestration. Automatically launches, scales and manages containerized applications.
 MLeap -> serializing and deserealizing learning models in cross platform files. Ability to export models from different machine learning libraries anf frameworks such as 
@@ -53,13 +57,15 @@ TensorFlow Serving -> opensource utility that serves ML models in real world set
 TensorFlow.js -> opensource library that builds and deploys ML models in javascript. Trains or executes models directly on browser or on Node.js.
 
 **Data Monitoring and Assessment Tools**
+
 IBM AI Fairness 360 -> open source toolkit for detecting and mitigating bias machine learning models.
 IBM AI Explainability 360 -> open source toolkit for explaining the behavior and decisions of machine learning models.
 IBM Adversarial Robustness 360 Toolbox -> protecting ML models from adversarial attacks.
 Prometheus -> freely available monitoring system that collects and stores metrics in real time from different sources.
 ModelDB -> open source platforms for managing ML models and experimensts.
 
-##Languages for Data Science
+## Languages for Data Science
+
 For data science, you can use Python's scientific computing libraries like Pandas, NumPy, SciPy, and Matplotlib. 
 
 Python can also be used for Natural Language Processing (NLP) using the Natural Language Toolkit (NLTK). 
