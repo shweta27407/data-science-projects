@@ -85,3 +85,58 @@ For data science, popular program built with Scala is Apache Spark which include
 Programs built for Data Science with JavaScript include TensorFlow.js and R-js.
 
 One great application of Julia for Data Science is JuliaDB.
+
+## API's
+
+API, allows communication between two pieces of software. Ex: Pandas is a set of software components where not all components are written in Python. In your program, there is some data and a set of software components. You can use the Pandas API to process the data by communicating with the other software components. 
+
+The software component at the back end can be the same, but there can be an API for different languages. Consider TensorFlow at the back end, written in C++, that can use APIs for other languages, such as Python, JavaScript, C++, Java, and Go, and thus, the API is just the interface. 
+
+REST APIs are another popular type of API. The R-E stands for Representational, the S stands for State, and the T stands for Transfer. They allow you to communicate through the internet and take advantage of resources, like storage, data, artificially intelligent algorithms, and much more. 
+
+In REST API, your program is the client. The API communicates with a web service you can call through the internet, though there are rules regarding communication, input or request, and output or response. So, let's look at some common terms used with regards to API. You or your code are the client. The web service is the resource. The client finds the service via an endpoint. And the client sends requests to the resource and receives a response from the resource. Data is transmitted over the internet using HTTP methods. 
+The REST APIs get all the information from the request sent by the client. The request is sent using an HTTP message that contains a JSON file. The file contains instructions for what operation is to be performed by the web service. This operation is transmitted to the web service via the internet, and the service performs the operation. Similarly, the web service returns a response through an HTTP message where the information is returned using a JSON file. And this information is transmitted back to the client. 
+
+Example of a REST API is Watson Speech-to-Text API. This API converts speech to text. In the API call, you will send a copy of the audio file to the API. This is called a post request. In the API, we'll send the text transcription of what the individual is saying. At the back end, the API is making a GET request.
+
+## Types of Datasets
+
+**Open datasets  : **
+
+# Government Data
+- [Data.gov](https://www.data.gov/)
+- [US Census Bureau Data](https://www.census.gov/data.html)
+- [UK Government Data](https://data.gov.uk/)
+- [Open Data Network](https://www.opendatanetwork.com/)
+
+# Financial Data Sources
+- [World Bank Data](https://data.worldbank.org/)
+- [Global Financial Data](https://www.globalfinancialdata.com/)
+- [UN Comtrade](https://comtrade.un.org/)
+- [National Bureau of Economic Research (NBER)](https://www.nber.org/)
+- [FRED - St. Louis Fed Economic Data](https://fred.stlouisfed.org/)
+
+# Crime Data
+- [FBI Uniform Crime Reporting](https://www.fbi.gov/services/cjis/ucr)
+- [ICPSR National Archive of Criminal Justice Data](https://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html)
+- [National Institute on Drug Abuse - Trends and Statistics](https://www.drugabuse.gov/related-topics/trends-statistics)
+- [UNODC Data and Analysis](https://www.unodc.org/unodc/en/data-and-analysis/)
+
+# Health Data
+- [WHO Global Health Observatory](https://www.who.int/gho/database/en/)
+- [FDA - Food Data](https://www.fda.gov/Food/default.htm)
+- [SEER Cancer Statistics](https://seer.cancer.gov/faststats/selections.php?series=cancer)
+- [Open Science Data Cloud](https://www.opensciencedatacloud.org/)
+- [NASA PDS](https://pds.nasa.gov/)
+- [NASA Earth Data](https://earthdata.nasa.gov/)
+- [SGIM Public Datasets](https://www.sgim.org/communities/research/dataset-compendium/public-datasets-topic-grid)
+
+# Academic and Business Data
+- [Google Scholar](https://scholar.google.com/)
+- [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
+- [Glassdoor Research](https://www.glassdoor.com/research/)
+- [Yelp Dataset](https://www.yelp.com/dataset)
+
+# Other General Data
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [Reddit Datasets](https://www.reddit.com/r/datasets/)
