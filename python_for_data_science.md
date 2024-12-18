@@ -63,6 +63,35 @@ try:
     result = 10 / 0
 except ZeroDivisionError:
     print("Error: Cannot divide by zero")
+```
+
+# Pandas Attributes and Methods
+
+### Series Operations
+1. **values**: Returns the Series data as a NumPy array.
+2. **index**: Returns the index (labels) of the Series.
+3. **shape**: Returns a tuple representing the dimensions of the Series.
+4. **size**: Returns the number of elements in the Series.
+5. **mean()**, **sum()**, **min()**, **max()**: Calculate summary statistics of the data.
+6. **unique()**, **nunique()**: Get unique values or the number of unique values.
+7. **sort_values()**, **sort_index()**: Sort the Series by values or index labels.
+8. **isnull()**, **notnull()**: Check for missing (NaN) or non-missing values.
+9. **apply()**: Apply a custom function to each element of the Series.
+
+---
+
+### DataFrame Operations
+1. **shape**: Returns the dimensions (number of rows and columns) of the DataFrame.
+2. **info()**: Provides a summary of the DataFrame, including data types and non-null counts.
+3. **describe()**: Generates summary statistics for numerical columns.
+4. **head()**, **tail()**: Displays the first or last `n` rows of the DataFrame.
+5. **mean()**, **sum()**, **min()**, **max()**: Calculate summary statistics for columns.
+6. **sort_values()**: Sort the DataFrame by one or more columns.
+7. **groupby()**: Group data based on specific columns for aggregation.
+8. **fillna()**, **drop()**, **rename()**: Handle missing values, drop columns, or rename columns.
+9. **apply()**: Apply a function to each element, row, or column of the DataFrame.
+
+
 
 
 
