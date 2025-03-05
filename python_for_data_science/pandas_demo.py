@@ -34,3 +34,7 @@ dict_ = {
 df = pd.DataFrame(dict_)
 print("Type : ", type(df))
 
+# prac
+a = np.array([1,2,3,4,5])
+print("\n array output:\n", a+10)
+
