@@ -40,3 +40,6 @@ It assists in analyzing textual content, such as articles, blogs, or research pa
 
 Word cloud helps analyze survey responses, interviews, or focus group transcripts to extract key insights. It also highlights important skills or keywords in resumes or job descriptions to assess their relevance. 
 
+
+
+
