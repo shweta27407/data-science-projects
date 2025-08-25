@@ -29,7 +29,9 @@ High accuracy (low bias) + high precision (low variance) = Best performance.
 
 ---
 
-[]
+   ![bias - variance](https://github.com/shweta27407/data-science-projects/blob/main/Data_Science_IBM_Notes/Machine_Learning_With_Python/images/bias-variance.png)
+
+Data_Science_IBM_Notes/Machine_Learning_With_Python/images/bias-variance.png
 
 ## 📉 Prediction Variance
 
@@ -55,6 +57,10 @@ As **model complexity increases**:
 - Low bias, high variance
 
 There's a **sweet spot** where the model is complex enough to reduce bias but not too complex to increase variance excessively.
+
+   ![modelcomplexity](https://github.com/shweta27407/data-science-projects/blob/main/Data_Science_IBM_Notes/Machine_Learning_With_Python/images/bias-variance.png)
+
+Data_Science_IBM_Notes/Machine_Learning_With_Python/images/bias-variance.png
 
 ---
 
