@@ -1,3 +1,6 @@
+## Causal ML in Predicting Treatment Outcomes Research
+
+
 Imagine you’re testing a new blood pressure medication.
 	•	ML (Regular) would predict: “People who take the medicine tend to have lower blood pressure.”
 	•	Causal ML answers: “Does taking the medicine cause a person’s blood pressure to drop?”
